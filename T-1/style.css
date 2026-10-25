@@ -1,0 +1,188 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px #eeeeee;
+  padding: 8px 35px 8px 35px;
+}
+
+header h1 {
+  color: #18181a;
+}
+header h1 span {
+  color: rgb(173, 171, 171);
+}
+
+header ul {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.get {
+  display: flex;
+  align-items: center;
+}
+
+.get button {
+  border-radius: 22px;
+  border: none;
+  padding: 10px 24px;
+  background-color: #18181a;
+  margin-left: 20px;
+}
+
+.get a{
+  color: #000;
+}
+
+.sing-in a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fa-brands {
+  font-size: 1.5rem;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.biographi {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biographi img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px -6px 53px -4px rgba(64, 50, 50, 0.73);
+  -webkit-box-shadow: 0px -6px 53px -4px rgba(64, 50, 50, 0.73);
+  -moz-box-shadow: 0px -6px 53px -4px rgba(64, 50, 50, 0.73);
+}
+
+.first-text {
+  color: #5a595f;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.biographi h2 {
+  color: #080808;
+  font-size: 4rem;
+}
+
+.second-text {
+  margin-top: 10px;
+  color: #5a595f;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.My-Work a,
+.fa-arrow-right-long {
+  color: #ffffff;
+}
+.My-Work {
+  padding: 12px 28px;
+  border: none;
+  background-color: #080808;
+  border-radius: 20px;
+}
+
+.Download {
+  padding: 12px 28px;
+  border: solid 1px gainsboro;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+}
+
+.Download a {
+  color: #080808;
+  font-weight: 400;
+}
+
+.My-Work:hover {
+  background-color: #403f42;
+  box-shadow:
+    1px 1px 0.5px rgb(174, 164, 164),
+    -1px -1px 0.5px rgb(174, 164, 164);
+}
+
+.Download:hover {
+  background-color: #9c9c9d;
+  box-shadow:
+    1px 1px 0.5px rgb(130, 114, 114),
+    -1px -1px 0.5px rgb(130, 114, 114);
+}
+
+.icons {
+  width: 100px;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-item ul {
+  display: none;
+  position: absolute;
+  border-radius: 12px;
+}
+
+.sub-menu li {
+  max-width: 85px;
+  padding: 10px;
+  background-color: #9c9c9d;
+  border-bottom: 1px solid burlywood;
+}
+
+.nav-item:hover ul {
+  display: block;
+}
